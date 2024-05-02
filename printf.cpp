@@ -1,14 +1,18 @@
 extern "C" void AnishkinPrintf(const char* format, ...);
+#include <cstdlib>
 
 int main() 
 {
-    int dec         = 5;
-    int hex         = 15;
-    int octal       = 8;
-    char chr        = ')';
-    const char* str = "Anishka";
+    const char* name = "Anishka";
+    int age          = -20;
+    int course       = 3;
+    char first_word  = 'M';
+    char second_word = 'I';
+    char third_word  = 'P';
+    char fourth_word = 'T';
 
-    AnishkinPrintf("dec: %d hex: %x octal: %o sym: %c str: %s", dec, hex, octal, chr, str);
-
+    AnishkinPrintf("Hello! My name is %s. I am %d years old. I am a %xrd year student at %c%c%c%c", 
+                   name, age, course, first_word, second_word, third_word, fourth_word);
+    system ("pause");
     return 0;
 }
