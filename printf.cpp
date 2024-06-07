@@ -11,8 +11,8 @@ int main()
     char third_word  = 'P';
     char fourth_word = 'T';
 
-    AnishkinPrintf("Hello! My name is %s. I am %d years old. I am a %xrd year student at %c%c%c%c", 
+    AnishkinPrintf("Hello! My name is %s. I am %d years old. I am a %xrd year student at %c%c%c%c.", 
                    name, age, course, first_word, second_word, third_word, fourth_word);
-    system ("pause");
+    
     return 0;
 }

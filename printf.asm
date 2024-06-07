@@ -1,4 +1,4 @@
-global AnishkinPrintf       ; делаем метку метку _start видимой извне
+global AnishkinPrintf   ; делаем метку метку _start видимой извне
 
 extern WriteFile        ; подключем функцию WriteFile
 extern GetStdHandle     ; подключем функцию GetStdHandle
